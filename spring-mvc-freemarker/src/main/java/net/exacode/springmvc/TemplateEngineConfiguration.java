@@ -52,7 +52,8 @@ public class TemplateEngineConfiguration {
 				WebApplicationContext applicationContext) throws IOException,
 				TemplateException {
 			System.out.println("freeMarkerConfigurer");
-			System.out.println("added....");
+			//System.out.println("added....");
+			System.out.print("abc...");
 			FreeMarkerConfigurer configurer = new FreeMarkerConfigurer();
 			freemarker.template.Configuration configuration = configurer
 					.createConfiguration();
