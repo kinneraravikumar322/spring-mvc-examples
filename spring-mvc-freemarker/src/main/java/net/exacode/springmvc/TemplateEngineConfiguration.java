@@ -117,4 +117,9 @@ public class TemplateEngineConfiguration {
 		}
 
 	}
+	
+	public void update() {
+	   System.out.print("update");	
+		
+	}		
 }
