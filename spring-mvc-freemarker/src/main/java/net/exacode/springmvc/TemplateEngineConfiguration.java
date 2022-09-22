@@ -117,4 +117,10 @@ public class TemplateEngineConfiguration {
 		}
 
 	}
+
+      public void save() {
+
+         System.out.print("save,,,,");
+      }
+
 }
