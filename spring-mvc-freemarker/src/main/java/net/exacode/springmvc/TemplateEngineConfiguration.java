@@ -122,5 +122,10 @@ public class TemplateEngineConfiguration {
 
          System.out.print("save,,,,");
       }
+	
+	public void update() {
+	   System.out.print("update");	
+		
+	}		
 
 }
